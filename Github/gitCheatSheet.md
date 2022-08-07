@@ -163,7 +163,19 @@ Rewriting branches, updating commits and clearing history
 
 `git revert [commit SHA]` Create a new commit, reverting changes from the specified commit. It generates an inversion of changes.
 
+Git – Difference Between Git Fetch and Git Pull
 
+Last Updated : 30 Jan, 2022
+
+Difference between git fetch and git pull
+Git Fetch is the command that tells the local repository that there are changes available in the remote repository without bringing the changes into the local repository. Git Pull on the other hand brings the copy of the remote directory changes into the local repository. 
+
+Difference 
+Git Fetch                                                                                                   Git Pull
+Gives the information of a new change from a remote repository without merging into 	   Brings the copy of all the changes from a remote                     the current branch                                                                                    repository and merges them into the current branch
+Repository data is updated in the .git directory	                                                    The local repository is updated directly
+Review of commits and changes can be done	                                                         Updates the changes to the local repository immediately.
+No possibility of merge conflicts.	                                                                Merge conflicts are possible if the remote and the local                                                                                                        repositories have done changes at the same place.
 
 
 #### References
